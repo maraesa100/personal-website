@@ -38,8 +38,8 @@ class PortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Getting tickets to the big show</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                    <h2 className="title theme-gradient">Full Stack Developer (Android) @ Upgrade Pack</h2>
+                                    <p>Android Lead on the microservices structured MVP React Native App.</p>
                                 </div>
                             </div>
                         </div>
@@ -54,9 +54,9 @@ class PortfolioDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
                                     <div className="inner">
-                                        <h2>Trydo</h2>
-                                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                                        <h2>Upgrade Pack</h2>
+                                        <p className="subtitle">Software Development, DevOps and Infrastructure at the travel startup 'Upgrade Pack'. </p>
+                                        <p>The product is a full Javascript stack with a Node backend and a NoSQL Firebase database, with firestore oauth authentication.</p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">

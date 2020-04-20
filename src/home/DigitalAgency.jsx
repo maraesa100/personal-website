@@ -107,9 +107,17 @@ class DigitalAgency extends Component{
                                     <h4>Javascript | PHP</h4>
                                     <p>React, React Native, Node, Laravel, NoSQL, SQL, Firebase, AWS, Heroku.</p> 
                                     <br />
-                                    <h3>Tooling || Testing</h3>
+                                    <h3>Tooling | Testing</h3>
                                     {/* <h4>Javascript | PHP</h4> */}
-                                    <p>TDD: Jest, Cucumber etc. Continuous Integration: (CircleCI). Microservices.</p>                                    
+                                    <p>TDD: Jest</p>                                    
+                                    <p>BDD: Cucumber</p>                                    
+                                    <p>Continuous Integration: CircleCI</p>                                    
+                                    <p>Firebase test lab</p>                                    
+                                    <p>Microservices.</p>    
+                                    <p>Oauth authentication.</p>    
+                                    <br />
+                                    <h3>Secure Projects</h3>    
+                                    <p>SC-Clearance: United Kingdom Security Vetting (one of five levels of national security vetting)</p>                            
                                 </div>
                            </div>
                        </div>
@@ -125,8 +133,8 @@ class DigitalAgency extends Component{
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--15">
-                                        <h2 className="title">Our Project</h2>
-                                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
+                                        <h2 className="title">Work</h2>
+                                        <p>Examples of Native Mobile App development, and two Full-Stack web apps.</p>
                                     </div>
                                 </div>
                             </div>
