@@ -100,12 +100,16 @@ class DigitalAgency extends Component{
                        <div className="row">
                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">Service</h2>
-                                    <p>Strategic, Full-Stack development by an SC-Cleared, award-winning developer with an emphasis on supporting business growth.</p>
+                                    <h2 className="title">The Service</h2>
+                                    <p>Strategic, Full-Stack development by an SC-Cleared engineer with an emphasis on driving sustainable business growth.</p>
                                     <br /><br />
                                     <h3>Technologies</h3>
                                     <h4>Javascript | PHP</h4>
-                                    <p>React, React Native, Node, Laravel, NoSQL, SQL, Firebase, AWS</p>
+                                    <p>React, React Native, Node, Laravel, NoSQL, SQL, Firebase, AWS, Heroku.</p> 
+                                    <br />
+                                    <h3>Tooling || Testing</h3>
+                                    {/* <h4>Javascript | PHP</h4> */}
+                                    <p>TDD: Jest, Cucumber etc. Continuous Integration: (CircleCI). Microservices.</p>                                    
                                 </div>
                            </div>
                        </div>
