@@ -14,7 +14,7 @@ import Footer from "../component/footer/Footer";
 class About extends Component{
     render(){
         let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
+        description = 'About Siobhan McKenzie software development';
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='About' />
@@ -43,14 +43,14 @@ class About extends Component{
                                         <div className="row mt--30">
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">The business</h3>
+                                                    <p>I started Siobhan McKenzie Ltd in 2020 to build beautiful products that work hard for the businesses that fit around them.</p>
                                                 </div>
                                             </div>
                                             <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                                                 <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
+                                                    <h3 className="title">Who am I</h3>
+                                                    <p>I'm London-based when I'm in the UK, otherwise I'm travelling the world with my little boy. I speak decent Spanish, and I'm learning Japanese. I enjoy painting, cartoons (Rick and Morty, Final Space, Bobs Burgers) and I'm very athletic - I enjoy the outdoors, running and rowing when I can.</p>
                                                 </div>
                                             </div>
                                         </div>
