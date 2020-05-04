@@ -118,7 +118,8 @@ class DigitalAgency extends Component{
                                     <br />
                                     <h3>Secure Projects</h3>    
                                     <p>SC-Clearance: United Kingdom Security Vetting (one of five levels of national security vetting)</p>                            
-                                </div>
+                                    <h3>Secure Projects</h3>    
+                               </div>
                            </div>
                        </div>
                         <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-center" />
