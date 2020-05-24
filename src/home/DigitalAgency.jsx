@@ -145,12 +145,17 @@ class DigitalAgency extends Component{
                                         <li>Update Permissions: Backend/Frontend - Regular users should only be able to edit their own user group </li>
                                         <li>Bug Fix: Backend/Frontend - Cannot toggle user driven content between private and public</li>
                                         <li>Change Placeholder: Frontend - Make static placeholder dynamic - implement API call to produce placeholder text based on user settings</li>
-                                        <li>Create new database columns, routes: Backend/Frontend - New options for user generated content - needed backend updates</li>
+                                        <li>Create new user data options: Backend/Frontend - New options for user generated content. New database columns, routes, actions, frontend UI</li>
                                         <li>Configure Changelog: Frontend - Implement changelog, tweak styling.</li>
                                         <li>Update Actions: Frontend - Modify redux actions</li>
                                         <li>Change Navigation System: Frontend - Modify navigation to new UI and apply permissions</li>
                                         <li>Change UI: Frontend - Overhaul dashboard</li>
+                                        <li>Bug Fix: Frontend/Backend - User who modified user-generated data was being set as the original submitted by Backend, and Frontend was reading the wrong data</li>
+                                        <li>Bug Fix: Frontend/Backend - Ability to modify a certain part of the database data</li>
+                                        <li>Change UI: Frontend - Implement Tooltip with database data. Wired in existing actions.</li>
+                                        <li>Bug Fix: Frontend - Fix Actions.</li>
                                     </ul>
+                                    <p>This particular project was a 12/hr a week project. I communicated daily, raising clarification questions, opening new tickets as i discovered pre-existing bugs, and make suggestions such as how to structure the database for maximum efficiency.</p>
 
                                     <br />
                                </div>
