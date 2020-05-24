@@ -35,9 +35,11 @@ import DarkMainDemo from './dark/MainDemo';
 // Element Layout
 import Service from "./elements/Service";
 import ServiceDetails from "./elements/ServiceDetails";
+import ReactNativeService from "./elements/ReactNativeService";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import PortfolioDetailsUP from "./elements/PortfolioDetailsUP";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -92,9 +94,11 @@ class Root extends Component{
                     {/* Element Layot */}
                     <Route exact path={`${process.env.PUBLIC_URL}/service`} component={Service}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/service-details`} component={ServiceDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/service-react-native`} component={ReactNativeService}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-up`} component={PortfolioDetailsUP}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 

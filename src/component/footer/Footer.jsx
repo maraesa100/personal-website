@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/siobhanmckenzie/'}
+    // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+    // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 class Footer extends Component{
     render(){
@@ -45,8 +45,7 @@ class Footer extends Component{
                                             <div className="footer-link">
                                                 <h4>Say Hello</h4>
                                                 <ul className="ft-link">
-                                                    <li><a href="mailto:admin@example.com">admin@example.com</a></li>
-                                                    <li><a href="mailto:hr@example.com">hr@example.com</a></li>
+                                                    <li><a href="mailto:hi@siobhanmckenzie.com">hi@siobhanmckenzie.com</a></li>
                                                 </ul>
 
                                                 <div className="social-share-inner">
