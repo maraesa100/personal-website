@@ -20,7 +20,7 @@ const SlideList = [
         bgImage: 'bg_image--21',
         category: '',
         title: 'SIOBHAN MCKENZIE',
-        description: `Full Stack Javascript & PHP Development`,
+        description: `Fuss-free & Fast App Development`,
         // descriptionSecondary: `MERN || LAMP: React / React Native, Node, Javascript, PHP, Laravel`,
         buttonText: 'Contact Me',
         buttonLink: '/contact'
@@ -100,15 +100,20 @@ class DigitalAgency extends Component{
                        <div className="row">
                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">The Service</h2>
-                                    <p>Strategic, Full-Stack development by an SC-Cleared engineer with an emphasis on driving sustainable business growth.</p>
-                                    <br /><br />
-                                    <h3>Technologies</h3>
-                                    <h4>Javascript | PHP</h4>
+                                    <h2 className="title">What I do</h2>
+                                    <p>I'll slot directly into your workflow and cleanly close tickets, build out features and fix and prevent bugs.</p>
+                                    <p>I'll save you time - there's no jargon, no micromanagement required. Clear daily communication and honest upfront time estimates. No need to outline absolutely everything - I make no-brainer assumptions if things are slightly unclear, and will flag these assumptions in my notes. My goal is to saving you time and effort which should be put elsewhere.</p>
+                                    <p>You'll get the benefit of my technical architectur, QA (quality) and Testing experience on every job (even if you just hire me to do frontend fixes).</p>
+                                    <p>My business experience means i'll push back on technical strategy if I feel you can get more value for money or efficiency doing things differently. No ego - I can make recommendations, but final choices are always yours.</p>
+                                    <p>Plain english is used whether working with technical or non-technical people.</p>
+                                    <p>I can scale up and down with requirements - I'm open about my available time capacity.</p>
+                                    <br />
+                                    <h3>My Technologies</h3>
+                                    <h4>Languages: Javascript | PHP</h4>
+                                    <p>I develop native mobile apps and web apps mainly using the following technologies and services.</p> 
                                     <p>React, React Native, Node, Laravel, NoSQL, SQL, Firebase, AWS, Heroku.</p> 
                                     <br />
-                                    <h3>Tooling | Testing</h3>
-                                    {/* <h4>Javascript | PHP</h4> */}
+                                    <h3>My Tooling | Testing</h3>
                                     <p>TDD: Jest</p>                                    
                                     <p>BDD: Cucumber</p>                                    
                                     <p>Continuous Integration: CircleCI</p>                                    
@@ -116,9 +121,8 @@ class DigitalAgency extends Component{
                                     <p>Microservices.</p>    
                                     <p>Oauth authentication.</p>    
                                     <br />
-                                    <h3>Secure Projects</h3>    
-                                    <p>SC-Clearance: United Kingdom Security Vetting (one of five levels of national security vetting)</p>                            
-                                    <h3>Secure Projects</h3>    
+                                    <h3>Secure Projects: My Clearance</h3>    
+                                    <p>I hold SC-Clearance (up for renewal in 2022). This is United Kingdom Security Vetting (one of five levels of national security vetting). Documentation available if required.</p>                            
                                </div>
                            </div>
                        </div>
