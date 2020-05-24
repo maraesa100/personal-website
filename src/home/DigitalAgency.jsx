@@ -103,15 +103,17 @@ class DigitalAgency extends Component{
                                     <h2 className="title">What I do</h2>
                                     <p>I'll slot directly into your workflow and cleanly close tickets, build out features and fix and prevent bugs.</p>
                                     <p>I'll save you time - there's no jargon, no micromanagement required. Clear daily communication and honest upfront time estimates. No need to outline absolutely everything - I make no-brainer assumptions if things are slightly unclear, and will flag these assumptions in my notes. My goal is to saving you time and effort which should be put elsewhere.</p>
-                                    <p>You'll get the benefit of my technical architectur, QA (quality) and Testing experience on every job (even if you just hire me to do frontend fixes).</p>
+                                    <p>You'll get the benefit of my Technical Architecture, QA (quality) and Testing experience on every job (even if you just hire me to do frontend fixes).</p>
                                     <p>My business experience means i'll push back on technical strategy if I feel you can get more value for money or efficiency doing things differently. No ego - I can make recommendations, but final choices are always yours.</p>
                                     <p>Plain english is used whether working with technical or non-technical people.</p>
                                     <p>I can scale up and down with requirements - I'm open about my available time capacity.</p>
+                                    <br />
                                     <br />
                                     <h3>My Technologies</h3>
                                     <h4>Languages: Javascript | PHP</h4>
                                     <p>I develop native mobile apps and web apps mainly using the following technologies and services.</p> 
                                     <p>React, React Native, Node, Laravel, NoSQL, SQL, Firebase, AWS, Heroku.</p> 
+                                    <br />
                                     <br />
                                     <h3>My Tooling | Testing</h3>
                                     <p>TDD: Jest</p>                                    
@@ -121,8 +123,36 @@ class DigitalAgency extends Component{
                                     <p>Microservices.</p>    
                                     <p>Oauth authentication.</p>    
                                     <br />
+                                    <br />
                                     <h3>Secure Projects: My Clearance</h3>    
-                                    <p>I hold SC-Clearance (up for renewal in 2022). This is United Kingdom Security Vetting (one of five levels of national security vetting). Documentation available if required.</p>                            
+                                    <p>I hold SC-Clearance (up for renewal in 2022). This is United Kingdom Security Vetting (one of five levels of national security vetting). Documentation available if required.</p>     
+                                    <br />
+                                    <br />
+                                    <h3>My Fees</h3>
+                                    <p>£85 / hr</p>
+                                    <p>Deposit: 1 week of billed hours. Deducted from your final invoice.</p>
+                                    <p>(If you hire me for 12 hours a week, the deposit is £1,050)</p>
+                                    <br />
+                                    <br />
+                                    <h3>Invoicing terms</h3>
+                                    <p>7 days</p>
+                                    <br />
+                                    <h3>Workrate Examples</h3>
+                                    <p>What can I achieve in 40 billed hours (1 week)? Examples of closed tickets</p>
+                                    <ul>
+                                        <li>Implement Permissions System: Backend/Frontend - Create 5 new user roles, apply permissions across the entire application</li>
+                                        <li>Change UI: Frontend - Apply new template to filtered table list</li>
+                                        <li>Update Permissions: Backend/Frontend - Regular users should only be able to edit their own user group </li>
+                                        <li>Bug Fix: Backend/Frontend - Cannot toggle user driven content between private and public</li>
+                                        <li>Change Placeholder: Frontend - Make static placeholder dynamic - implement API call to produce placeholder text based on user settings</li>
+                                        <li>Create new database columns, routes: Backend/Frontend - New options for user generated content - needed backend updates</li>
+                                        <li>Configure Changelog: Frontend - Implement changelog, tweak styling.</li>
+                                        <li>Update Actions: Frontend - Modify redux actions</li>
+                                        <li>Change Navigation System: Frontend - Modify navigation to new UI and apply permissions</li>
+                                        <li>Change UI: Frontend - Overhaul dashboard</li>
+                                    </ul>
+
+                                    <br />
                                </div>
                            </div>
                        </div>
