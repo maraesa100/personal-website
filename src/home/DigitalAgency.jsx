@@ -174,7 +174,7 @@ class DigitalAgency extends Component{
                                 <div className="col-lg-12">
                                     <div className="section-title text-center service-style--3 mb--15">
                                         <h2 className="title">Work</h2>
-                                        <p>Examples of Native Mobile App development, and two Full-Stack web apps.</p>
+                                        <p>Examples of Native Mobile App and Full-Stack Web Apps.</p>
                                     </div>
                                 </div>
                             </div>
