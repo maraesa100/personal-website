@@ -137,9 +137,12 @@ class DigitalAgency extends Component{
                                     <h3>Invoicing terms</h3>
                                     <p>7 days</p>
                                     <br />
+                                    <h3>Bug action SLA</h3>
+                                    <p>I normally fix bugs made by other developers or those that have been newly noticed within 24 hours - 12 hours if they are breaking bugs.</p>
+                                    <br />
                                     <h3>Workrate Examples</h3>
-                                    <p>What can I achieve in 40 billed hours (1 week)? Examples of closed tickets</p>
-                                    <ul>
+                                    <p>What can I achieve in 40 billed hours (1 week)? Real-life example - based on my Toggl worksheet logs covering GitHub issues</p>
+                                    <ul style={{ textAlign: 'left'}}>
                                         <li>Implement Permissions System: Backend/Frontend - Create 5 new user roles, apply permissions across the entire application</li>
                                         <li>Change UI: Frontend - Apply new template to filtered table list</li>
                                         <li>Update Permissions: Backend/Frontend - Regular users should only be able to edit their own user group </li>
@@ -150,6 +153,7 @@ class DigitalAgency extends Component{
                                         <li>Update Actions: Frontend - Modify redux actions</li>
                                         <li>Change Navigation System: Frontend - Modify navigation to new UI and apply permissions</li>
                                         <li>Change UI: Frontend - Overhaul dashboard</li>
+                                        <li>Change UI: Frontend - Apply new UI design to user area</li>
                                         <li>Bug Fix: Frontend/Backend - User who modified user-generated data was being set as the original submitted by Backend, and Frontend was reading the wrong data</li>
                                         <li>Bug Fix: Frontend/Backend - Ability to modify a certain part of the database data</li>
                                         <li>Change UI: Frontend - Implement Tooltip with database data. Wired in existing actions.</li>
@@ -181,13 +185,13 @@ class DigitalAgency extends Component{
                             <div className="row">
                                 <PortfolioList styevariation="text-center mt--40" column="col-lg-4 col-md-6 col-sm-6 col-12" item="6" />
                             </div>
-                            <div className="row">
+                            {/* <div className="row">
                                 <div className="col-lg-12">
                                     <div className="view-more-btn mt--60 text-center">
                                         <a className="rn-button-style--2 btn-solid" href="/portfolio"><span>View More</span></a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

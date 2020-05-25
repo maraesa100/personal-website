@@ -4,18 +4,21 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Development',
-        title: 'Mobile App Development'
+        title: 'Mobile App Development',
+        URL: 'UP'
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: 'Web App Development'
+        title: 'Web App Development',
+        URL: 'DE'
+    },
+    {
+        image: 'image-3',
+        category: 'Development',
+        title: 'Web App Development',
+        URL: ''
     }
-    // {
-    //     image: 'image-3',
-    //     category: 'Development',
-    //     title: 'Getting tickets to the big show'
-    // }
     // {
     //     image: 'image-4',
     //     category: 'Development',
@@ -26,7 +29,7 @@ const PortfolioListContent = [
 class PortfolioList extends Component{
     render(){
         const {column , styevariation } = this.props;
-        const list = PortfolioListContent.slice(0 , this.props.item);
+        const list = PortfolioListContent.slice(0 , PortfolioListContent.length + 1);
         return(
             <React.Fragment> 
                 {list.map((value , index) => (
@@ -39,7 +42,7 @@ class PortfolioList extends Component{
                             <div className="content">
                                 <div className="inner">
                                     <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                    <h4><a href={`/portfolio-details${value.URL}`}>{value.title}</a></h4>
                                     <div className="portfolio-button">
                                         <a className="rn-btn" href="/portfolio-details">View</a>
                                     </div>
