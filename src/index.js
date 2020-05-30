@@ -99,7 +99,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-up`} component={PortfolioDetailsUP}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details-up`} component={PortfolioDetailsUP}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-de`} component={PortfolioDetailsDE}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>

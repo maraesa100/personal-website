@@ -39,7 +39,7 @@ class PortfolioDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">Full Stack Developer (Android) @ Upgrade Pack</h2>
-                                    <p>Lead Adnroid Developer on the microservices structured MVP React Native App.</p>
+                                    <p>Lead Android Developer on the microservices structured MVP React Native App.</p>
                                 </div>
                             </div>
                         </div>

@@ -5,13 +5,13 @@ const PortfolioListContent = [
         image: 'image-1',
         category: 'Development',
         title: 'Mobile App Development',
-        URL: 'UP'
+        URL: 'up'
     },
     {
         image: 'image-2',
         category: 'Development',
         title: 'Web App Development',
-        URL: 'DE'
+        URL: 'de'
     },
     {
         image: 'image-3',
@@ -44,7 +44,7 @@ class PortfolioList extends Component{
                                     <p>{value.category}</p>
                                     <h4><a href={`/portfolio-details${value.URL}`}>{value.title}</a></h4>
                                     <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View</a>
+                                        <a className="rn-btn" href={`/portfolio-details-${value.URL}`}>View</a>
                                     </div>
                                 </div>
                             </div>
