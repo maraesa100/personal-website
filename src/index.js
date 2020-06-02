@@ -150,7 +150,7 @@ class Root extends Component {
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/portfolio-de`}
+            path={`${process.env.PUBLIC_URL}/portfolio-details-de`}
             component={PortfolioDetailsDE}
           />
           <Route

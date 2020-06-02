@@ -93,11 +93,13 @@ class PortfolioDetails extends Component {
                     <h3>Problems</h3>
                     <p>
                       Design and UX tweaks made constantly by Product which were
-                      generally implemented by the development team. They were
+                      quickly implemented by the Development team. They were
                       generally not driven by user analysis. This slowed the
-                      process down, and the implementation of needed features,
-                      such as connecting with our partners gateways were left
-                      until last, in favour of changing frontend design.
+                      launch process down significantly, and the implementation
+                      of needed features, such as connecting with our partners
+                      gateways were left until last, in favour of changing
+                      frontend design. This hindered growth, and launch was
+                      delayed further and further (still pending).
                     </p>
 
                     <h3>How this experience helps YOU</h3>

@@ -62,16 +62,14 @@ class About extends Component {
                       </div>
                       <div className='col-lg-6 col-md-12 col-sm-12 col-12'>
                         <div className='about-us-list'>
-                          <h3 className='title'>A Little About Me</h3>
+                          <h3 className='title'>A Little More About Me</h3>
                           <p>
-                            I'm London-based when I'm in the UK, otherwise I'm
-                            travelling the world with my little boy (written
-                            before the COVID-19 outbreak - still hopeful that
-                            travel will return one day). I speak decent Spanish,
-                            and I'm learning Japanese. I enjoy painting,
-                            cooking, cartoons (Rick and Morty, Final Space, Bobs
-                            Burgers) and I'm very athletic - I enjoy the
-                            outdoors, running and rowing when I can.
+                            I'm London-based when I'm in the UK, and most of my
+                            time I spend woodworking, cooking or painting. I
+                            dabble in krav maga, and I speak Spanish. I donate
+                            my time to non-profits, so if you have an
+                            interesting humanitarian project you're working on,
+                            get in touch!
                           </p>
                         </div>
                       </div>
