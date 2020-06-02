@@ -184,6 +184,8 @@ class PortfolioDetails extends Component {
                       </ul>
                     </div> */}
                   </div>
+                  <h2>Product</h2>
+                  <h3>Dashboard</h3>
                   <div className='portfolio-thumb-inner'>
                     <div className='thumb mb--30'>
                       <img
@@ -191,6 +193,8 @@ class PortfolioDetails extends Component {
                         alt='Portfolio Images'
                       />
                     </div>
+                    <br />
+                    <h3>Changelog</h3>
 
                     <div className='thumb'>
                       <img
@@ -198,22 +202,33 @@ class PortfolioDetails extends Component {
                         alt='Portfolio Images'
                       />
                     </div>
-
+                    <br />
+                    <h3>'Experiment'</h3>
+                    <p>
+                      For this product, the user runs marketing 'experiments'
+                      which are measured.
+                    </p>
                     <div className='thumb'>
                       <img
                         src='/assets/images/portfolio/Growth-Method-Experiment.png'
                         alt='Portfolio Images'
                       />
                     </div>
-
+                    {/* <p>Team Roles</p> */}
+                    {/* 
                     <div className='thumb'>
                       <img
                         src='/assets/images/portfolio/Growth-Method-Roles.png'
                         alt='Portfolio Images'
                       />
                     </div>
+                    <br /> */}
+                    <br />
+                    <br />
+                    {/* <h2>Team Roles: Video</h2> */}
 
-                    <div className='thumb position-relative mb--30'>
+                    {/* <div className='thumb position-relative mb--30'>
+
                       <img
                         src='/assets/images/portfolio/portfolio-big-03.jpg'
                         alt='Portfolio Images'
@@ -230,7 +245,7 @@ class PortfolioDetails extends Component {
                       >
                         <span className='play-icon'></span>
                       </button>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>
@@ -238,66 +253,6 @@ class PortfolioDetails extends Component {
           </div>
         </div>
         {/* End Portfolio Details */}
-
-        {/* Start Related Work */}
-        <div className='portfolio-related-work pb--120 bg_color--1'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center'>
-                  <span className='theme-color font--18 fontWeight600'>
-                    Related Work
-                  </span>
-                  <h2>Our More Projects</h2>
-                </div>
-              </div>
-            </div>
-            <div className='row mt--10'>
-              {/* Start Single Portfolio */}
-              <div className='col-lg-6 col-md-6 col-12'>
-                <div className='related-work text-center mt--30'>
-                  <div className='thumb'>
-                    <a href='/portfolio-details'>
-                      <img
-                        src='/assets/images/portfolio/related-image-01.jpg'
-                        alt='Portfolio-images'
-                      />
-                    </a>
-                  </div>
-                  <div className='inner'>
-                    <h4>
-                      <a href='/portfolio-details'>Digital Analysis</a>
-                    </h4>
-                    <span className='category'>Technique</span>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Portfolio */}
-              {/* Start Single Portfolio */}
-              <div className='col-lg-6 col-md-6 col-12'>
-                <div className='related-work text-center mt--30'>
-                  <div className='thumb'>
-                    <a href='/portfolio-details'>
-                      <img
-                        src='/assets/images/portfolio/related-image-02.jpg'
-                        alt='Portfolio-images'
-                      />
-                    </a>
-                  </div>
-                  <div className='inner'>
-                    <h4>
-                      <a href='/portfolio-details'>Plan Management</a>
-                    </h4>
-                    <span className='category'>PLANNING</span>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Portfolio */}
-            </div>
-          </div>
-        </div>
-        {/* End Related Work */}
-
         {/* Start Back To Top */}
         <div className='backto-top'>
           <ScrollToTop showUnder={160}>
