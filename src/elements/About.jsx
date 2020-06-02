@@ -48,7 +48,7 @@ class About extends Component {
                       <p className='description'>{description}</p>
                     </div>
                     <div className='row mt--30'>
-                      <div className='col-lg-6 col-md-12 col-sm-12 col-12'>
+                      <div className='col-lg-12 col-md-12 col-sm-12 col-12'>
                         <div className='about-us-list'>
                           <h3 className='title'>The Why</h3>
                           <p>
@@ -60,8 +60,8 @@ class About extends Component {
                           </p>
                         </div>
                       </div>
-                      <div className='col-lg-6 col-md-12 col-sm-12 col-12'>
-                        <div className='about-us-list'>
+                      {/* <div className='col-lg-6 col-md-12 col-sm-12 col-12'> */}
+                      {/* <div className='about-us-list'>
                           <h3 className='title'>A Little More About Me</h3>
                           <p>
                             I'm London-based when I'm in the UK, and most of my
@@ -71,8 +71,8 @@ class About extends Component {
                             interesting humanitarian project you're working on,
                             get in touch!
                           </p>
-                        </div>
-                      </div>
+                        </div> */}
+                      {/* </div> */}
                     </div>
                   </div>
                 </div>
@@ -83,7 +83,7 @@ class About extends Component {
         {/* End About Area  */}
 
         {/* Start CounterUp Area */}
-        <div className='rn-counterup-area pb--120 bg_color--1'>
+        {/* <div className='rn-counterup-area pb--120 bg_color--1'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
@@ -94,7 +94,7 @@ class About extends Component {
             </div>
             <CounterOne />
           </div>
-        </div>
+        </div> */}
         {/* End CounterUp Area */}
 
         {/* Start Finding Us Area  */}
@@ -102,15 +102,17 @@ class About extends Component {
           <div className='inner'>
             <div className='content-wrapper'>
               <div className='content'>
-                <h4 className='theme-gradient'>Find Your Work Now</h4>
+                <h4 className='theme-gradient'>A little more about me</h4>
                 <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that.
+                  I'm London-based when I'm in the UK, and most of my time I
+                  spend woodworking, cooking or painting. I dabble in krav maga,
+                  and I speak Spanish. I donate my time to non-profits, so if
+                  you have an interesting humanitarian project you're working
+                  on, get in touch!
                 </p>
-                <a className='rn-btn btn-white' href='/about'>
+                {/* <a className='rn-btn btn-white' href='/about'>
                   Get Started
-                </a>
+                </a> */}
               </div>
             </div>
             <div className='thumbnail'>
