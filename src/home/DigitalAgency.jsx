@@ -100,7 +100,17 @@ class DigitalAgency extends Component{
                        <div className="row">
                            <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30">
-                                    <h2 className="title">What I do</h2>
+                                <h2 className="title">Who Am I?</h2>
+                                <p>Hey! I’m Shiv. I’m here to get you from 0 to launch within a few months, and driving cashflow from day 1. I will give you the tools you need for success: distill your mission and features, glue your team together, and I will build it for you. Once.</p>
+                                <h2 className="title">Our Collaboration</h2>
+                                <p>Your product will be built to last. It will easily scale upto 100,000+ live users. There will be no unexpected app crashes or emergency meetings, or embarrassing delayed launches when you have a huge surge of new users to support. You get my Business Development experience (I’ve won 2 awards), my Developer experience (Coding, DevOps, QA, Architecture).</p>
+                                <h2 className="title">The Code</h2>
+                                <p>Your codebase will be developed in the UK, by an SC-Cleared developer who understands the business of MVPs: from PCI Compliance to engaging your customers. Your success has very little to do with superhero coding skills, and much more to do with the finesse of delivering working features that are on time, aligned with your user capture machine, and on budget.</p>
+                                <h2 className="title">The Process</h2>
+                                <p>Creating apps doesn't need to be a lengthy process, or an expensive one. What you want is a minimal set of features that you can test on your user base of 'first adopters'. You need to fail quickly and therefore iterate to success quickly. Your users will tell you what works through their usage and behaviour: don’t ever directly ask them (they can rarely tell you directly!)</p>
+                                <h2 className='title'>Get In Touch</h2>
+                                <p>I’m here to build you a product to be proud of, one that makes an impact, and most importantly helps people. I deliver on time, on budget, with the actual list of (working!!) features agreed upon. If you believe that the best businesses are those that serve others as much as they serve themselves, send me an email! I’d love to work with you. </p>
+                                <a href="mailto:hi@askshiv.co.uk">hi@askshiv.co.uk</a>    {/* <h2 className="title">What I do</h2>
                                     <p>I'll slot directly into your workflow and cleanly close tickets, build out features and fix and prevent bugs.</p>
                                     <p>I'll save you time - there's no jargon, no micromanagement required. Clear daily communication and honest upfront time estimates. No need to outline absolutely everything - I make no-brainer assumptions if things are slightly unclear, and will flag these assumptions in my notes. My goal is to saving you time and effort which should be put elsewhere.</p>
                                     <p>You'll get the benefit of my Technical Architecture, QA (quality) and Testing experience on every job (even if you just hire me to do frontend fixes).</p>
@@ -140,25 +150,8 @@ class DigitalAgency extends Component{
                                     <h3>Bug action SLA</h3>
                                     <p>I normally fix bugs made by other developers or those that have been newly noticed within 24 hours - 12 hours if they are breaking bugs.</p>
                                     <br />
-                                    <h3>Workrate Examples</h3>
-                                    <p>What can I achieve in 40 billed hours (1 week)? Real-life example - based on my Toggl timesheet logs</p>
-                                    <ul style={{ textAlign: 'left'}}>
-                                        <li>Implement Permissions System: Backend/Frontend - Create 5 new user roles, apply permissions across the entire application</li>
-                                        <li>Change UI: Frontend - Apply new template to filtered table list</li>
-                                        <li>Update Permissions: Backend/Frontend - Regular users should only be able to edit their own user group </li>
-                                        <li>Bug Fix: Backend/Frontend - Cannot toggle user driven content between private and public</li>
-                                        <li>Change Placeholder: Frontend - Make static placeholder dynamic - implement API call to produce placeholder text based on user settings</li>
-                                        <li>Create new user data options: Backend/Frontend - New options for user generated content. New database columns, routes, actions, frontend UI</li>
-                                        <li>Configure Changelog: Frontend - Implement changelog, tweak styling.</li>
-                                        <li>Update Actions: Frontend - Modify redux actions</li>
-                                        <li>Change Navigation System: Frontend - Modify navigation to new UI and apply permissions</li>
-                                        <li>Change UI: Frontend - Overhaul dashboard</li>
-                                        <li>Change UI: Frontend - Apply new UI design to user area</li>
-                                        <li>Bug Fix: Frontend/Backend - User who modified user-generated data was being set as the original submitted by Backend, and Frontend was reading the wrong data</li>
-                                        <li>Bug Fix: Frontend/Backend - Ability to modify a certain part of the database data</li>
-                                        <li>Change UI: Frontend - Implement Tooltip with database data. Wired in existing actions.</li>
-                                        <li>Bug Fix: Frontend - Fix Actions.</li>
-                                    </ul>
+                                    <h3>Workrate Examples</h3> */}
+                                    
                                     {/* <p>This particular project was a 12/hr a week project. I communicated daily, raising clarification questions, opening new tickets as i discovered pre-existing bugs, and make suggestions such as how to structure the database for maximum efficiency.</p> */}
 
                                     <br />
