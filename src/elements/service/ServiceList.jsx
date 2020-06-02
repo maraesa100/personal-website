@@ -25,7 +25,7 @@ const ServiceList = [
     {
         icon: <FiUsers />,
         title: 'Web App development',
-        description: 'Creating products using the MERN (MEAN, EXPRESS, REACT & NODE) stacks or mixed stacks with PHP / Laravel backends. Solutions are developed from scratch with scale in mind, and stability as a priority.'
+        description: 'Creating products using the MERN (Mongo DB, EXPRESS, REACT & NODE) stacks or mixed stacks with PHP / Laravel backends. Solutions are developed from scratch with scale in mind, and stability as a priority.'
     }
     // { 
     //     icon: <FiMonitor />,

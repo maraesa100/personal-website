@@ -76,14 +76,12 @@ class Contact extends Component{
                                         <FiMail />
                                     </div>
                                     <div className="inner">
-                                    <h4 className="title">Email Me</h4>
-                                    <h5 className="title">Feel free to include:</h5>
-                                    <ul>
-                                        <li>Your product outline and stage of development</li>
-                                        <li>Where the product sits within your business</li>
-                                        <li>Your timeframe and budget</li>
-                                    </ul>
-                                        <p><a href="mailto:hi@siobhanmckenzie.com">hi@siobhanmckenzie.com</a></p>
+                                    <h4 className="title">Get In Touch</h4>
+                                    <h5 className="title">Please include your mission, your budget, your target customer profile, and your target launch date</h5>
+                                    {/* <ul>
+                                        <li>your mission, your budget, your target customer profile, and your target launch date</li>
+                                    </ul> */}
+                                        <p><a href="mailto:hi@askshiv.co.uk">hi@askshiv.co.uk</a></p>
                                         {/* <p><a href="mailto:example@gmail.com">example@gmail.com</a></p> */}
                                     </div>
 
