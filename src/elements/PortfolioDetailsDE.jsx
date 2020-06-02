@@ -194,14 +194,14 @@ class PortfolioDetails extends Component {
                       />
                     </div>
                     <br />
-                    <h3>Changelog</h3>
+                    {/* <h3>Changelog</h3>
 
                     <div className='thumb'>
                       <img
                         src='/assets/images/portfolio/Growth-Method-Changelog-Mobile-View.png'
                         alt='Portfolio Images'
                       />
-                    </div>
+                    </div> */}
                     <br />
                     <h3>'Experiment'</h3>
                     <p>

@@ -30,12 +30,10 @@ class Footer extends Component {
                       display: this.props.hideContactButton ? 'none' : 'flex'
                     }}
                   >
-                    <span>Ready To Do This</span>
-                    <h2>
-                      Let's get <br /> to work
-                    </h2>
+                    {/* <span>Ready To Do This</span> */}
+                    <h2>{/* Let's get <br /> to work */}</h2>
                     <a className='rn-button-style--2' href='/contact'>
-                      <span>Contact Us</span>
+                      <span>Contact Shiv</span>
                     </a>
                   </div>
                 </div>
@@ -67,19 +65,17 @@ class Footer extends Component {
                         <h4>Say Hello</h4>
                         <ul className='ft-link'>
                           <li>
-                            <a href='mailto:hi@siobhanmckenzie.com'>
-                              hi@siobhanmckenzie.com
+                            <a href='mailto:hi@askshiv.co.uk'>
+                              hi@askshiv.co.uk
                             </a>
                           </li>
                         </ul>
 
                         <div className='social-share-inner'>
                           <ul className='social-share social-style--2 d-flex justify-content-start liststyle mt--15'>
-                            {SocialShare.map((val, i) => (
-                              <li key={i}>
-                                <a href={`${val.link}`}>{val.Social}</a>
-                              </li>
-                            ))}
+                            <a href='https://www.linkedin.com/in/siobhanmckenzie/'>
+                              <FaLinkedinIn />
+                            </a>
                           </ul>
                         </div>
                       </div>
