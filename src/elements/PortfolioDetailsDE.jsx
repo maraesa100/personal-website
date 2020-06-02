@@ -87,6 +87,76 @@ class PortfolioDetails extends Component {
                       release a portion of the budget.
                     </p>
 
+                    <h3>40-hour Deliverables</h3>
+                    <p>Examples of what I achieved (bug-free) in 40 hours</p>
+
+                    <ul style={{ textAlign: 'left' }}>
+                      <li>
+                        Implement Permissions System: Backend/Frontend - Create
+                        5 new user roles, apply permissions across the entire
+                        application
+                      </li>
+                      <li>
+                        Change UI: Frontend - Apply new template to filtered
+                        table list
+                      </li>
+                      <li>
+                        Update Permissions: Backend/Frontend - Regular users
+                        should only be able to edit their own user group
+                      </li>
+                      <li>
+                        Bug Fix: Backend/Frontend - Cannot toggle user driven
+                        content between private and public
+                      </li>
+                      <li>
+                        Change Placeholder: Frontend - Make static placeholder
+                        dynamic - implement API call to produce placeholder text
+                        based on user settings
+                      </li>
+                      <li>
+                        Create new user data options: Backend/Frontend - New
+                        options for user generated content. New database
+                        columns, routes, actions, frontend UI
+                      </li>
+                      <li>
+                        Configure Changelog: Frontend - Implement changelog,
+                        tweak styling.
+                      </li>
+                      <li>Update Actions: Frontend - Modify redux actions</li>
+                      <li>
+                        Change Navigation System: Frontend - Modify navigation
+                        to new UI and apply permissions
+                      </li>
+                      <li>Change UI: Frontend - Overhaul dashboard</li>
+                      <li>
+                        Change UI: Frontend - Apply new UI design to user area
+                      </li>
+                      <li>
+                        Bug Fix: Frontend/Backend - User who modified
+                        user-generated data was being set as the original
+                        submitted by Backend, and Frontend was reading the wrong
+                        data
+                      </li>
+                      <li>
+                        Bug Fix: Frontend/Backend - Ability to modify a certain
+                        part of the database data
+                      </li>
+                      <li>
+                        Change UI: Frontend - Implement Tooltip with database
+                        data. Wired in existing actions.
+                      </li>
+                      <li>Bug Fix: Frontend - Fix Actions.</li>
+                    </ul>
+
+                    <h3>How this project helps YOU</h3>
+                    <p>
+                      At my recommendation, Selenium was integrated with the
+                      project, which minimised the need for manual testing. It
+                      emphasised the need for automated testing, and my
+                      experience with Selenium can be transferred to your web
+                      app project.
+                    </p>
+
                     <div className='portfolio-view-list d-flex flex-wrap'>
                       <div className='port-view'>
                         <span>GitHub</span>
@@ -115,6 +185,34 @@ class PortfolioDetails extends Component {
                     </div> */}
                   </div>
                   <div className='portfolio-thumb-inner'>
+                    <div className='thumb mb--30'>
+                      <img
+                        src='/assets/images/portfolio/Growth-Method-Screenshot.png'
+                        alt='Portfolio Images'
+                      />
+                    </div>
+
+                    <div className='thumb'>
+                      <img
+                        src='/assets/images/portfolio/Growth-Method-Changelog-Mobile-View.png'
+                        alt='Portfolio Images'
+                      />
+                    </div>
+
+                    <div className='thumb'>
+                      <img
+                        src='/assets/images/portfolio/Growth-Method-Experiment.png'
+                        alt='Portfolio Images'
+                      />
+                    </div>
+
+                    <div className='thumb'>
+                      <img
+                        src='/assets/images/portfolio/Growth-Method-Roles.png'
+                        alt='Portfolio Images'
+                      />
+                    </div>
+
                     <div className='thumb position-relative mb--30'>
                       <img
                         src='/assets/images/portfolio/portfolio-big-03.jpg'
@@ -132,20 +230,6 @@ class PortfolioDetails extends Component {
                       >
                         <span className='play-icon'></span>
                       </button>
-                    </div>
-
-                    <div className='thumb mb--30'>
-                      <img
-                        src='/assets/images/portfolio/portfolio-big-02.jpg'
-                        alt='Portfolio Images'
-                      />
-                    </div>
-
-                    <div className='thumb'>
-                      <img
-                        src='/assets/images/portfolio/portfolio-big-01.jpg'
-                        alt='Portfolio Images'
-                      />
                     </div>
                   </div>
                 </div>
