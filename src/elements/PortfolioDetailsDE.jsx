@@ -68,14 +68,16 @@ class PortfolioDetails extends Component {
               <div className='col-lg-12'>
                 <div className='portfolio-details'>
                   <div className='inner'>
-                    <h2>Upgrade Pack</h2>
+                    <h2>Growth Method</h2>
+                    <br />
+                    {/* <h3>The Goal</h3> */}
                     <p className='subtitle'>
-                      The Goal: Rapid development for the first wave of live
-                      users in April 2020
+                      Rapid development for the first wave of live users in
+                      April 2020
                     </p>
-                    <h2>The Tech</h2>
+                    <h3>The Tech</h3>
                     <p>React and Laravel</p>
-                    <h2>Outcome</h2>
+                    <h3>Outcome</h3>
                     <p>
                       Successful launch, delivered 100% of 3 primary features on
                       time, and 4 additional features in the future roadmap were
@@ -87,21 +89,21 @@ class PortfolioDetails extends Component {
 
                     <div className='portfolio-view-list d-flex flex-wrap'>
                       <div className='port-view'>
-                        <span>Branch</span>
-                        <h4>Ability</h4>
+                        <span>GitHub</span>
+                        <h4>Available</h4>
                       </div>
 
                       <div className='port-view'>
-                        <span>Project Types</span>
-                        <h4>Website</h4>
+                        <span>Project Type</span>
+                        <h4>SaaS (Software-as-a-service Web App)</h4>
                       </div>
-
+                      {/* 
                       <div className='port-view'>
                         <span>Program</span>
                         <h4>View Project</h4>
-                      </div>
+                      </div> */}
                     </div>
-
+                    {/* 
                     <div className='portfolio-share-link mt--20 pb--70 pb_sm--40'>
                       <ul className='social-share rn-lg-size d-flex justify-content-start liststyle mt--15'>
                         {SocialShare.map((val, i) => (
@@ -110,7 +112,7 @@ class PortfolioDetails extends Component {
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                   <div className='portfolio-thumb-inner'>
                     <div className='thumb position-relative mb--30'>
