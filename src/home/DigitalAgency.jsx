@@ -259,102 +259,8 @@ class DigitalAgency extends Component {
         </div>
         {/* End Portfolio Area */}
 
-        {/* Start About Area */}
-        <div className='about-area ptb--120  bg_color--1'>
-          <div className='about-wrapper'>
-            <div className='container'>
-              <div className='row row--35'>
-                <div className='col-lg-5'>
-                  <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='/assets/images/about/about-3.jpg'
-                      alt='About Images'
-                    />
-                  </div>
-                </div>
-                <div className='col-lg-7'>
-                  <div className='about-inner inner'>
-                    <div className='section-title'>
-                      <h2 className='title'>{title}</h2>
-                      <p className='description'>{description}</p>
-                    </div>
-                    <div className='row mt--30'>
-                      <TabOne tabStyle='tab-style--1' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End About Area */}
-
-        {/* Start Testimonial Area */}
-        <div className='rn-testimonial-area ptb--120 bg_color--5'>
-          <div className='container'>
-            <Testimonial />
-          </div>
-        </div>
-        {/* End Testimonial Area */}
-
-        {/* Start Blog Area */}
-        <div className='rn-blog-area pt--120 pb--80 bg_color--1'>
-          <div className='container'>
-            <div className='row align-items-end'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center service-style--3'>
-                  <h2>Latest News</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='row mt--60'>
-              {PostList.map((value, i) => (
-                <div className='col-lg-4 col-md-6 col-sm-6 col-12' key={i}>
-                  <div className='blog blog-style--1 text-center'>
-                    <div className='thumbnail'>
-                      <a href='/blog-details'>
-                        <img
-                          className='w-100'
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt='Blog Images'
-                        />
-                      </a>
-                    </div>
-                    <div className='content'>
-                      <p className='blogtype'>{value.category}</p>
-                      <h4 className='title'>
-                        <a href='/blog-details'>{value.title}</a>
-                      </h4>
-                      <div className='blog-btn'>
-                        <a className='rn-btn text-white' href='/blog-details'>
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='view-more-btn mt--20 text-center'>
-                  <a className='rn-button-style--2 btn-solid' href='/blog'>
-                    <span>View More</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Blog Area */}
-
         {/* Start Brand Area */}
-        <div className='rn-brand-area ptb--120 bg_color--5'>
+        {/* <div className='rn-brand-area ptb--120 bg_color--5'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
@@ -373,7 +279,7 @@ class DigitalAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Brand Area */}
 
         {/* Start call To Action  */}

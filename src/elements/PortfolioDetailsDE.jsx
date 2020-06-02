@@ -184,6 +184,8 @@ class PortfolioDetails extends Component {
                       </ul>
                     </div> */}
                   </div>
+                  <br />
+                  <br />
                   <h2>Product</h2>
                   <h3>Dashboard</h3>
                   <div className='portfolio-thumb-inner'>
