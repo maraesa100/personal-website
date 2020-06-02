@@ -89,6 +89,30 @@ class PortfolioDetails extends Component {
                       MVP Developed in 3 weeks. Small test base supported, and
                       leveraged to secure interest from prospective partners.{' '}
                     </p>
+
+                    <h3>Problems</h3>
+                    <p>
+                      Design and UX tweaks made constantly by Product which were
+                      generally implemented by the development team. They were
+                      generally not driven by user analysis. This slowed the
+                      process down, and the implementation of needed features,
+                      such as connecting with our partners gateways were left
+                      until last, in favour of changing frontend design.
+                    </p>
+
+                    <h3>How this experience helps YOU</h3>
+                    <p>
+                      We will design once, and develop once, and launch once.
+                      Superficial changes are not permitted until this is driven
+                      by user engagement and analysis. This will save you money:
+                      often these superficial changes add little to the user
+                      experience. We will use UX best practice, such as
+                      accessibility standards, and apply these strategically.
+                      There were also a lot of custom components built, which
+                      are extremely time consuming. The usage of completely
+                      custom components will be kept to a minimum.
+                    </p>
+
                     <h3>Detail</h3>
 
                     <p>
@@ -133,6 +157,11 @@ class PortfolioDetails extends Component {
                     <div className='portfolio-view-list d-flex flex-wrap'>
                       <div className='port-view'>
                         <span>GitHub Code</span>
+                        <h4>Available</h4>
+                      </div>
+
+                      <div className='port-view'>
+                        <span></span>
                         <h4>Available</h4>
                       </div>
 
@@ -182,65 +211,6 @@ class PortfolioDetails extends Component {
           </div>
         </div>
         {/* End Portfolio Details */}
-
-        {/* Start Related Work */}
-        <div className='portfolio-related-work pb--120 bg_color--1'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center'>
-                  <span className='theme-color font--18 fontWeight600'>
-                    Related Work
-                  </span>
-                  <h2>Our More Projects</h2>
-                </div>
-              </div>
-            </div>
-            <div className='row mt--10'>
-              {/* Start Single Portfolio */}
-              <div className='col-lg-6 col-md-6 col-12'>
-                <div className='related-work text-center mt--30'>
-                  <div className='thumb'>
-                    <a href='/portfolio-details'>
-                      <img
-                        src='/assets/images/portfolio/related-image-01.jpg'
-                        alt='Portfolio-images'
-                      />
-                    </a>
-                  </div>
-                  <div className='inner'>
-                    <h4>
-                      <a href='/portfolio-details'>Digital Analysis</a>
-                    </h4>
-                    <span className='category'>Technique</span>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Portfolio */}
-              {/* Start Single Portfolio */}
-              <div className='col-lg-6 col-md-6 col-12'>
-                <div className='related-work text-center mt--30'>
-                  <div className='thumb'>
-                    <a href='/portfolio-details'>
-                      <img
-                        src='/assets/images/portfolio/related-image-02.jpg'
-                        alt='Portfolio-images'
-                      />
-                    </a>
-                  </div>
-                  <div className='inner'>
-                    <h4>
-                      <a href='/portfolio-details'>Plan Management</a>
-                    </h4>
-                    <span className='category'>PLANNING</span>
-                  </div>
-                </div>
-              </div>
-              {/* End Single Portfolio */}
-            </div>
-          </div>
-        </div>
-        {/* End Related Work */}
 
         {/* Start Back To Top */}
         <div className='backto-top'>
