@@ -129,13 +129,13 @@ class DigitalAgency extends Component{
                                     <br />
                                     <br />
                                     <h3>My Fees</h3>
-                                    <p>£85 / hr</p>
+                                    <p>£65 / hr (no VAT)</p>
                                     <p>Deposit: 1 week of billed hours. Deducted from your final invoice.</p>
                                     <p>(If you hire me for 12 hours a week, the deposit is £1,050)</p>
                                     <br />
                                     <br />
                                     <h3>Invoicing terms</h3>
-                                    <p>7 days</p>
+                                    <p>7 days | Interval: weekly billing for first 3 months</p>
                                     <br />
                                     <h3>Bug action SLA</h3>
                                     <p>I normally fix bugs made by other developers or those that have been newly noticed within 24 hours - 12 hours if they are breaking bugs.</p>
@@ -159,7 +159,7 @@ class DigitalAgency extends Component{
                                         <li>Change UI: Frontend - Implement Tooltip with database data. Wired in existing actions.</li>
                                         <li>Bug Fix: Frontend - Fix Actions.</li>
                                     </ul>
-                                    <p>This particular project was a 12/hr a week project. I communicated daily, raising clarification questions, opening new tickets as i discovered pre-existing bugs, and make suggestions such as how to structure the database for maximum efficiency.</p>
+                                    {/* <p>This particular project was a 12/hr a week project. I communicated daily, raising clarification questions, opening new tickets as i discovered pre-existing bugs, and make suggestions such as how to structure the database for maximum efficiency.</p> */}
 
                                     <br />
                                </div>

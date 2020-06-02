@@ -38,7 +38,8 @@ class PortfolioDetails extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Full Stack Developer (Android) @ Upgrade Pack</h2>
+                                <h2 className="title theme-gradient">Full Stack Developer</h2>
+                                <h2 className="title theme-gradient">@ Upgrade Pack</h2>
                                     <p>Lead Android Developer on the microservices structured MVP React Native App.</p>
                                 </div>
                             </div>
@@ -55,47 +56,55 @@ class PortfolioDetails extends Component{
                                 <div className="portfolio-details">
                                     <div className="inner">
                                         <h2>Upgrade Pack</h2>
-                                        <p className="subtitle">Software Development, DevOps and Infrastructure at the travel startup 'Upgrade Pack'. </p>
-                                        <p>The product is a full Javascript stack with a Node backend and a NoSQL Firebase database, with firestore oauth authentication.</p>
+                                        <p className="subtitle">JavaScript Full-Stack Development, DevOps and Infrastructure at the travel startup 'Upgrade Pack'. </p>
+                                        <p>The Upgrade Pack mission is to make accessing Travel Upgrades easier more afforable. It is a B2B loyalty product: originally targeted at large banks facing strong competition from 'Challenger Banks', and would be offered to the 
+                                            banks customers free of charge in order to encourage loyalty</p>
+                                            <p>I lead Android development of the React Native App, responsible for compatibility, managing builds, the Google Play store, 
+                                                and ensuring smooth deployment with the hundreds of Android devices that we supported.</p>
+                                                <p>The team works across a Javascript stack with a Node backend and a NoSQL Firebase database, with firestore oauth authentication.</p>
+                                                <p>Expo was used, and dynamic marketing content was loaded into the app from a custom CMS (content management system) that Product had access to. The backend was built with Node, 
+                                                    deployed using Google tooling, and communicated directly with the large British Airways API. We had to remain compliant with financial regulations (PCI Compliance) as we held secure credit card and personal information.</p>
+                                                <p>The team was originally 2 developers: we built the initial MVP in 3 weeks, which was designed to secure a letter of intent from a large bank.</p>
+                                                <p>The team grew to 5, and I typically cleanly closed 3-4 times as many tickets as other team members.</p>
 
                                         <div className="portfolio-view-list d-flex flex-wrap">
                                             <div className="port-view">
-                                                <span>Branch</span>
-                                                <h4>Ability</h4>
+                                                <span>GitHub Code</span>
+                                                <h4>Available</h4>
                                             </div>
 
                                             <div className="port-view">
-                                                <span>Project Types</span>
-                                                <h4>Website</h4>
+                                                <span>Project Type</span>
+                                                <h4>Mobile App</h4>
                                             </div>
 
-                                            <div className="port-view">
+                                            {/* <div className="port-view">
                                                 <span>Program</span>
                                                 <h4>View Project</h4>
-                                            </div>
+                                            </div> */}
                                         </div>
 
-                                        <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
+                                        {/* <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
                                             <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
                                                 {SocialShare.map((val , i) => (
                                                     <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
                                                 ))}
                                             </ul>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="thumb position-relative mb--30">
+                                        {/* <div className="thumb position-relative mb--30">
                                             <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
                                             <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
                                             <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
-                                        </div>
+                                        </div> */}
                                         
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/Up-3.png" alt="Portfolio Images"/>
                                         </div>
 
                                         <div className="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/Up-2.png" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
