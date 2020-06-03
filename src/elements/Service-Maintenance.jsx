@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PageHelmet from '../component/common/Helmet'
-import Breadcrumb from '../elements/common/Breadcrumb'
+import Breadcrumb from './common/Breadcrumb'
 import {
   FiCast,
   FiLayers,
@@ -71,43 +71,38 @@ class Service extends Component {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='section-title text-center mb--30'>
-                  <h2>My Services</h2>
+                  <h2>MVP Development</h2>
+                  <h3>How can I help you?</h3>
                   <p>
-                    I develop MVP Web and Mobile Apps. I also do maintenance and
-                    feature development on rolling contracts.
+                    We'll be a good match if you're looking for a developer who:
                   </p>
+                  <ul>
+                    <li>Can communicate in plain English</li>
+                    <li>Requires zero micromanagement or oversight</li>
+                    <li>Closes tickets quickly</li>
+                    <li>
+                      Has experience of working in a startup environment
+                      (Upgrade Pack) as well as giant technology companies (CGI)
+                    </li>
+                    <li>
+                      Can take on DevOps, Technical Architecture and QA
+                      Responsibility
+                    </li>
+                    <li>Delivers on-time, every time</li>
+                    <li>
+                      Can deal with short issue resolution timeframes (12 hours)
+                    </li>
+                    <li>Stays on budget</li>
+                    <li>
+                      Can comply with high level security requirements (UK Based
+                      and holds Security Clearance)
+                    </li>
+                    <li>Can coordinate with Product and Marketing directly</li>
+                    <li>
+                      Can contribute to your business and user capture plan
+                    </li>
+                  </ul>
                   <br />
-
-                  <h3>How our MVP collaboration will work.</h3>
-                  <p>
-                    You’ll send me an email to include: your mission, your
-                    budget, your target customer profile, and your target launch
-                    date. I’ll book a 1-hour meeting with you to understand
-                    where you are in the project, pick up any blindspots, and
-                    put together a plan of action. I’ll send through my
-                    fixed-fee quote, and once the deposit is paid I will set up
-                    the tech: e.g. GitHub Project with issues, Slack channels. I
-                    will send through the milestones and timings as well as your
-                    MVP Roadmap with marketing and design schedules. The MVP
-                    Roadmap which will take the pain out of your project
-                    management, and will allow you to assume the role of
-                    ‘Product Owner’ without teething problems.
-                  </p>
-                  <br />
-
-                  <h3>How our maintenance collaboration will work</h3>
-                  <p>
-                    You’ll send me your project information, and 'pain points'
-                    (issues you've had in the past), as well as your deadline,
-                    features required and budget.
-                  </p>
-                  <br />
-                  <h3>Fees</h3>
-                  <p>
-                    I offer both fixed and hourly pricing, depending on project
-                    type. My hourly rate is £65/hr, and MVP app costs range
-                    between £6,000 and £24,000.
-                  </p>
                 </div>
               </div>
             </div>

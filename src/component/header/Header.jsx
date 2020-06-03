@@ -65,19 +65,19 @@ class Header extends Component {
                 </li>
                 <li className='has-droupdown'>
                   <Link to='/service'>Service</Link>
-                  {/* <ul className='submenu'> */}
-                  {/* <li>
-                      <Link to='/mvp-service'>MVP Service</Link>
+                  <ul className='submenu'>
+                    <li>
+                      <Link to='/service-mvp'>MVP Service</Link>
                     </li>
                     <li>
-                      <Link to='/maintenance-service'>Maintenance</Link>
-                    </li> */}
-                  {/* <li><Link to="/service">Service</Link></li>
+                      <Link to='/service-maintenance'>Maintenance</Link>
+                    </li>
+                    {/* <li><Link to="/service">Service</Link></li>
                                         <li><Link to="/service-details">Service Details</Link></li>
                                         <li><Link to="/portfolio">Portfolio</Link></li>
                                         <li><Link to="/portfolio-details">Portfolio Details</Link></li>
                                         <li><Link to="/404">404</Link></li> */}
-                  {/* </ul> */}
+                  </ul>
                 </li>
                 <li>
                   <Link to='/about'>About</Link>

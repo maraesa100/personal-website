@@ -125,11 +125,14 @@ class DigitalAgency extends Component {
                 <div className='section-title text-center service-style--3 mb--30'>
                   <h2 className='title'>Who Am I?</h2>
                   <p>
-                    Hey! I’m Shiv. I’m here to get you from 0 to launch within a
-                    few months, and driving cashflow from day 1. I will give you
-                    the tools you need for success: distill your mission and
+                    Hey! I’m Shiv. If we're working together on an MVP I’m here
+                    to get you from 0 to launch within a short span of months,
+                    and driving cashflow from day 1. If we're working on an
+                    established product, I'll be your ticket closing machine.
+                    {/* I will give
+                    you the tools you need for success: distill your mission and
                     features, glue your team together, and I will build it for
-                    you. Once.
+                    you. Once. */}
                   </p>
                   <h2 className='title'>Our Collaboration</h2>
                   <p>
