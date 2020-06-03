@@ -50,10 +50,9 @@ class PortfolioDetails extends Component {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='rn-page-title text-center pt--100'>
-                  <h2 className='title theme-gradient'>
-                    Full Stack Developer @ Growth Method
-                  </h2>
-                  <p>Laravel (PHP) and React frontend development.</p>
+                  <h2 className='title theme-gradient'>Full Stack Developer</h2>
+                  <h2 className='title theme-gradient'>@ Growth Method</h2>
+                  <p>Laravel (PHP) and React</p>
                 </div>
               </div>
             </div>

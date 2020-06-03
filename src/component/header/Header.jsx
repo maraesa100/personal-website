@@ -82,17 +82,17 @@ class Header extends Component {
                 <li>
                   <Link to='/about'>About</Link>
                 </li>
-                {/* <li className="has-droupdown"><Link to="#pages" >Pages</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/blog">Blog List</Link></li>
-                                        <li><Link to="/blog-details">Blog Details</Link></li>
-                                        <li><Link to="/service">Service</Link></li>
-                                        <li><Link to="/service-details">Service Details</Link></li>
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
-                                        <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-                                        <li><Link to="/404">404</Link></li>
-                                    </ul>
-                                </li> */}
+                <li className='has-droupdown'>
+                  <Link to='/portfolio-details-up'>App Examples</Link>
+                  <ul className='submenu'>
+                    <li>
+                      <Link to='/portfolio-details-up'>Mobile App</Link>
+                    </li>
+                    <li>
+                      <Link to='/portfolio-details-de'>Web App</Link>
+                    </li>
+                  </ul>
+                </li>
                 {/* <li className="has-droupdown"><Link to="#" >Blocks</Link>
                                     <ul className="submenu">
                                         <li><Link to="/portfolio">Portfolio</Link></li>

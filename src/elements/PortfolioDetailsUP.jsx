@@ -82,7 +82,7 @@ class PortfolioDetails extends Component {
                     <p>
                       Google Firebase and Firestore (NoSQL Database,
                       Authentication, Hosting), Circle CI (Continuous
-                      Integration)
+                      Integration), Expo
                     </p>
                     <h3>Outcome</h3>
                     <p>

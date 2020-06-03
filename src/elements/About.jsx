@@ -54,9 +54,9 @@ class About extends Component {
                           <p>
                             I started Siobhan McKenzie Ltd in 2020 to build
                             beautiful products that work hard for the businesses
-                            that fit around them. I love Tech and Business, so
-                            this is a way to offer my experience of the two as a
-                            service to help your product thrive.
+                            they serve. I love Tech and Business, so this is a
+                            way to offer my experience of the two as a service
+                            to help your product thrive.
                           </p>
 
                           <h3 className='title'>My Credentials</h3>
@@ -65,8 +65,8 @@ class About extends Component {
                             Goldsmiths, University of London (2012)
                           </p>
                           <p>
-                            Bid Manager: 2013 to 2014 @ Logica/CGI, Adecco and
-                            MJ Quinn
+                            Bid Management: 2013 to 2014 @ Logica/CGI, Adecco
+                            and MJ Quinn
                           </p>
                           <p>Director: Retail - 2014 to 2018</p>
                           <p>
