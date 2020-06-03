@@ -33,6 +33,8 @@ import DarkMainDemo from './dark/MainDemo'
 
 // Element Layout
 import Service from './elements/Service'
+import ServiceMVP from './elements/Service-MVP'
+import ServiceMaintenance from './elements/Service-Maintenance'
 import ServiceDetails from './elements/ServiceDetails'
 import ReactNativeService from './elements/ReactNativeService'
 import About from './elements/About'
@@ -122,6 +124,16 @@ class Root extends Component {
             exact
             path={`${process.env.PUBLIC_URL}/service-details`}
             component={ServiceDetails}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/service-mvp`}
+            component={ServiceMVP}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/service-maintenance`}
+            component={ServiceMaintenance}
           />
           <Route
             exact

@@ -50,10 +50,9 @@ class PortfolioDetails extends Component {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='rn-page-title text-center pt--100'>
-                  <h2 className='title theme-gradient'>
-                    Full Stack Developer @ Growth Method
-                  </h2>
-                  <p>Laravel (PHP) and React frontend development.</p>
+                  <h2 className='title theme-gradient'>Full Stack Developer</h2>
+                  <h2 className='title theme-gradient'>@ Growth Method</h2>
+                  <p>Laravel (PHP) and React</p>
                 </div>
               </div>
             </div>
@@ -184,6 +183,8 @@ class PortfolioDetails extends Component {
                       </ul>
                     </div> */}
                   </div>
+                  <br />
+                  <br />
                   <h2>Product</h2>
                   <h3>Dashboard</h3>
                   <div className='portfolio-thumb-inner'>
@@ -194,14 +195,14 @@ class PortfolioDetails extends Component {
                       />
                     </div>
                     <br />
-                    <h3>Changelog</h3>
+                    {/* <h3>Changelog</h3>
 
                     <div className='thumb'>
                       <img
                         src='/assets/images/portfolio/Growth-Method-Changelog-Mobile-View.png'
                         alt='Portfolio Images'
                       />
-                    </div>
+                    </div> */}
                     <br />
                     <h3>'Experiment'</h3>
                     <p>

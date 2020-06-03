@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import {
   FaTwitter,
   FaInstagram,
@@ -8,100 +8,55 @@ import {
 
 const SocialShare = [
   // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
+  // {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+  // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
+  // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
   {
     Social: <FaLinkedinIn />,
     link: 'https://www.linkedin.com/in/siobhanmckenzie/'
   }
-  // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-  // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
-class Footer extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <footer className='footer-area'>
-          <div className='footer-wrapper'>
-            <div className='row align-items-end row--0'>
-              <div className='col-lg-6'>
-                <div className='footer-left'>
-                  <div
-                    className='inner'
-                    style={{
-                      display: this.props.hideContactButton ? 'none' : 'flex'
-                    }}
-                  >
-                    <span>Ready To Do This</span>
-                    <h2>
-                      Let's get <br /> to work
-                    </h2>
-                    <a className='rn-button-style--2' href='/contact'>
-                      <span>Contact Us</span>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div className='col-lg-6'>
-                <div className='footer-right' data-black-overlay='6'>
-                  <div className='row'>
-                    {/* Start Single Widget  */}
-                    <div className='col-lg-6 col-sm-6 col-12'>
-                      <div className='footer-link'>
-                        <h4>Quick Links</h4>
-                        <ul className='ft-link'>
-                          <li>
-                            <a href='/portfolio'>My Work</a>
-                          </li>
-                          <li>
-                            <a href='/about'>My Credentials</a>
-                          </li>
-                          <li>
-                            <a href='/contact'>Let's Talk</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                    {/* End Single Widget  */}
-                    {/* Start Single Widget  */}
-                    <div className='col-lg-6 col-sm-6 col-12 mt_mobile--30'>
-                      <div className='footer-link'>
-                        <h4>Say Hello</h4>
-                        <ul className='ft-link'>
-                          <li>
-                            <a href='mailto:hi@siobhanmckenzie.com'>
-                              hi@siobhanmckenzie.com
-                            </a>
-                          </li>
-                        </ul>
 
-                        <div className='social-share-inner'>
-                          <ul className='social-share social-style--2 d-flex justify-content-start liststyle mt--15'>
-                            {SocialShare.map((val, i) => (
-                              <li key={i}>
-                                <a href={`${val.link}`}>{val.Social}</a>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                    </div>
-                    {/* End Single Widget  */}
-
-                    <div className='col-lg-12'>
-                      <div className='copyright-text'>
-                        <p>
-                          Copyright © 2020 Siobhan McKenzie Ltd. All Rights
-                          Reserved
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+const FooterTwo = () => {
+  return (
+    <div
+      className='footer-style-2 ptb--30 bg_image bg_image--1'
+      data-black-overlay='6'
+    >
+      <div className='wrapper plr--50 plr_sm--20'>
+        <div className='row align-items-center justify-content-between'>
+          <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
+            <div className='inner'>
+              <div className='logo text-center text-sm-left mb_sm--20'>
+                <a href='/'>
+                  <img src='/assets/images/SM-logo.png' alt='Logo images' />
+                </a>
               </div>
             </div>
           </div>
-        </footer>
-      </React.Fragment>
-    )
-  }
+          <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
+            <div className='inner text-center'>
+              <ul className='social-share rn-lg-size d-flex justify-content-center liststyle'>
+                {SocialShare.map((val, i) => (
+                  <li key={i}>
+                    <a href={`${val.link}`}>{val.Social}</a>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+          <div className='col-lg-4 col-md-12 col-sm-12 col-12'>
+            <div className='inner text-lg-right text-center mt_md--20 mt_sm--20'>
+              <div className='text'>
+                <p>
+                  Copyright © 2020 Siobhan McKenzie Ltd. All Rights Reserved.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
 }
-export default Footer
+export default FooterTwo

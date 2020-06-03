@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PageHelmet from '../component/common/Helmet'
-import Breadcrumb from '../elements/common/Breadcrumb'
+import Breadcrumb from './common/Breadcrumb'
 import {
   FiCast,
   FiLayers,
@@ -66,48 +66,60 @@ class Service extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Service Area */}
-        <div className='service-area ptb--120 bg_color--5'>
+        <div className='service-area ptb--120'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='section-title text-center mb--30'>
-                  <h2>My Services</h2>
-                  <p>
-                    I develop MVP Web and Mobile Apps. I also do maintenance and
-                    feature development on rolling contracts.
-                  </p>
+                  <h2>Maintenance</h2>
                   <br />
-
-                  <h3>How our MVP collaboration will work.</h3>
-                  <p>
-                    You’ll send me an email to include: your mission, your
-                    budget, your target customer profile, and your target launch
-                    date. I’ll book a 1-hour meeting with you to understand
-                    where you are in the project, pick up any blindspots, and
-                    put together a plan of action. I’ll send through my
-                    fixed-fee quote, and once the deposit is paid I will set up
-                    the tech: e.g. GitHub Project with issues, Slack channels. I
-                    will send through the milestones and timings as well as your
-                    MVP Roadmap with marketing and design schedules. The MVP
-                    Roadmap which will take the pain out of your project
-                    management, and will allow you to assume the role of
-                    ‘Product Owner’ without teething problems.
-                  </p>
+                  <h3>
+                    We'll be a good match if you're looking for a developer who:
+                  </h3>
                   <br />
-
-                  <h3>How our maintenance collaboration will work</h3>
                   <p>
-                    You’ll send me your project information, and 'pain points'
-                    (issues you've had in the past), as well as your deadline,
-                    features required and budget.
+                    Can communicate in{' '}
+                    <span style={{ fontWeight: 'bold' }}>plain English</span>{' '}
                   </p>
+                  <p>
+                    Stays <span style={{ fontWeight: 'bold' }}>on budget</span>{' '}
+                  </p>
+                  <p>Requires zero micromanagement or oversight</p>
+                  <p>
+                    Closes tickets{' '}
+                    <span style={{ fontWeight: 'bold' }}>quickly</span>
+                  </p>
+                  <p>
+                    Has <span style={{ fontWeight: 'bold' }}>experience</span>{' '}
+                    of working in a{' '}
+                    <span style={{ fontWeight: 'bold' }}>startup</span>{' '}
+                    environment (Upgrade Pack), as well as for{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      large multinational
+                    </span>{' '}
+                    Technology companies (CGI)
+                  </p>
+                  <p>
+                    Does DevOps, Technical Architecture and QA alongside
+                    Development
+                  </p>
+                  <p>
+                    Delivers <span style={{ fontWeight: 'bold' }}>on time</span>
+                  </p>
+                  <p>
+                    Can comply with{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      high level security
+                    </span>{' '}
+                    requirements (UK Based and holds Security Clearance)
+                  </p>
+                  <p>
+                    Conducts work{' '}
+                    <span style={{ fontWeight: 'bold' }}>confidentially</span>
+                  </p>
+                  <p>Can coordinate with Product and Marketing directly</p>
+                  <p>Can contribute to your Business and User Capture plan</p>
                   <br />
-                  <h3>Fees</h3>
-                  <p>
-                    I offer both fixed and hourly pricing, depending on project
-                    type. My hourly rate is £65/hr, and MVP app costs range
-                    between £6,000 and £24,000.
-                  </p>
                 </div>
               </div>
             </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import PageHelmet from '../component/common/Helmet'
-import Breadcrumb from '../elements/common/Breadcrumb'
+import Breadcrumb from './common/Breadcrumb'
 import {
   FiCast,
   FiLayers,
@@ -71,31 +71,59 @@ class Service extends Component {
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='section-title text-center mb--30'>
-                  <h2>My Services</h2>
-                  <p>
+                  <h2>MVP Development</h2>
+                  {/* <p>
                     I develop MVP Web and Mobile Apps. I also do maintenance and
-                    feature development on rolling contracts.
-                  </p>
+                    feature development on rolling contracts
+                  </p> */}
                   <br />
 
-                  <h3>How our MVP collaboration will work.</h3>
+                  <h3>How can I help you?</h3>
+                  <br />
+                  <h4>We'll be a good match if you:</h4>
+                  <br />
                   <p>
-                    You’ll send me an email to include: your mission, your
-                    budget, your target customer profile, and your target launch
-                    date. I’ll book a 1-hour meeting with you to understand
-                    where you are in the project, pick up any blindspots, and
-                    put together a plan of action. I’ll send through my
-                    fixed-fee quote, and once the deposit is paid I will set up
-                    the tech: e.g. GitHub Project with issues, Slack channels. I
-                    will send through the milestones and timings as well as your
-                    MVP Roadmap with marketing and design schedules. The MVP
-                    Roadmap which will take the pain out of your project
-                    management, and will allow you to assume the role of
-                    ‘Product Owner’ without teething problems.
+                    Are building a{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      Minimum Viable Product (MVP)
+                    </span>{' '}
+                    with less than 3 key features.
+                  </p>
+                  <p>
+                    Need to get a stable product to market{' '}
+                    <span style={{ fontWeight: 'bold' }}>within 12 months</span>
+                  </p>
+                  <p>
+                    Use the lean process improvement model for this business:
+                    where an initial product is launched, and initial users are
+                    attacted, who are then monitored to see how new features and
+                    improvements improve engagement and profitability
+                  </p>
+                  <p>
+                    Have a{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      strong business idea
+                    </span>
+                    , with a{' '}
+                    <span style={{ fontWeight: 'bold' }}>compelling USP.</span>
+                  </p>
+                  <p>
+                    Have a self-sustaining business model: where it will cost
+                    less to attract and support users, than the long-term
+                    running costs (you do not plan to perpetually attract
+                    investors)
+                  </p>
+                  <p>
+                    Want to{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      focus on the business side
+                    </span>{' '}
+                    , and outsource day-to-day project management of the Tech
+                    side.
                   </p>
                   <br />
 
-                  <h3>How our maintenance collaboration will work</h3>
+                  {/* <h3>How our maintenance collaboration will work</h3>
                   <p>
                     You’ll send me your project information, and 'pain points'
                     (issues you've had in the past), as well as your deadline,
@@ -107,7 +135,7 @@ class Service extends Component {
                     I offer both fixed and hourly pricing, depending on project
                     type. My hourly rate is £65/hr, and MVP app costs range
                     between £6,000 and £24,000.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

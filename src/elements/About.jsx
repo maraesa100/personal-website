@@ -48,21 +48,53 @@ class About extends Component {
                       <p className='description'>{description}</p>
                     </div>
                     <div className='row mt--30'>
-                      <div className='col-lg-6 col-md-12 col-sm-12 col-12'>
+                      <div className='col-lg-12 col-md-12 col-sm-12 col-12'>
                         <div className='about-us-list'>
                           <h3 className='title'>The Why</h3>
                           <p>
                             I started Siobhan McKenzie Ltd in 2020 to build
                             beautiful products that work hard for the businesses
-                            that fit around them. I love Tech and Business, so
-                            this is a way to offer my experience of the two as a
-                            service to help your product thrive.
+                            they serve. I love Tech and Business, so this is a
+                            way to offer my experience of the two as a service
+                            to help your product thrive.
                           </p>
-                        </div>
-                      </div>
-                      <div className='col-lg-6 col-md-12 col-sm-12 col-12'>
-                        <div className='about-us-list'>
-                          <h3 className='title'>A Little More About Me</h3>
+
+                          <h3 className='title'>My Credentials</h3>
+                          <p>
+                            BSc 1st Class Computing and Interaction Design -
+                            Goldsmiths, University of London (2012)
+                          </p>
+                          <p>
+                            Bid Management: 2013 to 2014 @ Logica/CGI, Adecco
+                            and MJ Quinn
+                          </p>
+                          <p>Director: Retail - 2014 to 2018</p>
+                          <p>
+                            Lead Android Full Stack Developer: Upgrade Pack -
+                            2018 to 2020
+                          </p>
+                          <p>Full Stack Developer: Growth Method - 2020</p>
+
+                          <h3>Awards</h3>
+
+                          <p>ASOS New Business Awardee - 2014</p>
+                          <p>Adecco Gold Superstars Award - 2013</p>
+
+                          <h3>My Technology</h3>
+                          <p>
+                            React, React Native, Node.js, JavaScript, PHP,
+                            Laravel
+                          </p>
+
+                          <h3>My Tooling</h3>
+                          <p>Continuous Integration: Circle CI, Jenkins etc.</p>
+                          <p>
+                            Testing: Jest, Mocha, Chai, Cucumber, Selenium etc.
+                          </p>
+
+                          <h4 className='theme-gradient'>
+                            A little more about me
+                          </h4>
                           <p>
                             I'm London-based when I'm in the UK, and most of my
                             time I spend woodworking, cooking or painting. I
@@ -73,6 +105,19 @@ class About extends Component {
                           </p>
                         </div>
                       </div>
+                      {/* <div className='col-lg-6 col-md-12 col-sm-12 col-12'> */}
+                      {/* <div className='about-us-list'>
+                          <h3 className='title'>A Little More About Me</h3>
+                          <p>
+                            I'm London-based when I'm in the UK, and most of my
+                            time I spend woodworking, cooking or painting. I
+                            dabble in krav maga, and I speak Spanish. I donate
+                            my time to non-profits, so if you have an
+                            interesting humanitarian project you're working on,
+                            get in touch!
+                          </p>
+                        </div> */}
+                      {/* </div> */}
                     </div>
                   </div>
                 </div>
@@ -83,7 +128,7 @@ class About extends Component {
         {/* End About Area  */}
 
         {/* Start CounterUp Area */}
-        <div className='rn-counterup-area pb--120 bg_color--1'>
+        {/* <div className='rn-counterup-area pb--120 bg_color--1'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
@@ -94,167 +139,14 @@ class About extends Component {
             </div>
             <CounterOne />
           </div>
-        </div>
+        </div> */}
         {/* End CounterUp Area */}
-
-        {/* Start Finding Us Area  */}
-        <div className='rn-finding-us-area rn-finding-us bg_color--1'>
-          <div className='inner'>
-            <div className='content-wrapper'>
-              <div className='content'>
-                <h4 className='theme-gradient'>Find Your Work Now</h4>
-                <p>
-                  It is a long established fact that a reader will be distracted
-                  by the readable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum is that.
-                </p>
-                <a className='rn-btn btn-white' href='/about'>
-                  Get Started
-                </a>
-              </div>
-            </div>
-            <div className='thumbnail'>
-              <div className='image'>
-                <img
-                  src='/assets/images/about/finding-us-01.png'
-                  alt='Finding Images'
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Finding Us Area  */}
-
-        {/* Start Team Area  */}
-        <div className='rn-team-area bg_color--1 ptb--120'>
-          <div className='container'>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='section-title service-style--3 text-center mb--25'>
-                  <h2 className='title'>Skilled Team</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='row'>
-              {/* Start Single Team  */}
-              <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
-                <div className='team'>
-                  <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='/assets/images/team/team-01.jpg'
-                      alt='Blog Images'
-                    />
-                  </div>
-                  <div className='content'>
-                    <h4 className='title'>Jone Due</h4>
-                    <p className='designation'>Sr. Web Developer</p>
-                  </div>
-                  <ul className='social-icon'>
-                    <li>
-                      <a href='https://www.facebook.com/'>
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='http://linkedin.com/'>
-                        <FaLinkedinIn />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://twitter.com/'>
-                        <FaTwitter />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* End Single Team  */}
-
-              {/* Start Single Team  */}
-              <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
-                <div className='team'>
-                  <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='/assets/images/team/team-02.jpg'
-                      alt='Blog Images'
-                    />
-                  </div>
-                  <div className='content'>
-                    <h4 className='title'>BM. Alamin</h4>
-                    <p className='designation'>Sr. Web Developer</p>
-                  </div>
-                  <ul className='social-icon'>
-                    <li>
-                      <a href='https://www.facebook.com/'>
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='http://linkedin.com/'>
-                        <FaLinkedinIn />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://twitter.com/'>
-                        <FaTwitter />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* End Single Team  */}
-
-              {/* Start Single Team  */}
-              <div className='col-lg-4 col-md-6 col-sm-6 col-12'>
-                <div className='team'>
-                  <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='/assets/images/team/team-03.jpg'
-                      alt='Blog Images'
-                    />
-                  </div>
-                  <div className='content'>
-                    <h4 className='title'>Jone Due</h4>
-                    <p className='designation'>Sr. Web Developer</p>
-                  </div>
-                  <ul className='social-icon'>
-                    <li>
-                      <a href='https://www.facebook.com/'>
-                        <FaFacebookF />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='http://linkedin.com/'>
-                        <FaLinkedinIn />
-                      </a>
-                    </li>
-                    <li>
-                      <a href='https://twitter.com/'>
-                        <FaTwitter />
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              {/* End Single Team  */}
-            </div>
-          </div>
-        </div>
-        {/* End Team Area  */}
-
         {/* Start Testimonial Area */}
-        <div className='rn-testimonial-area bg_color--5 ptb--120'>
+        {/* <div className='rn-testimonial-area bg_color--5 ptb--120'>
           <div className='container'>
             <Testimonial />
           </div>
-        </div>
+        </div> */}
         {/* End Testimonial Area */}
 
         {/* Start Brand Area */}

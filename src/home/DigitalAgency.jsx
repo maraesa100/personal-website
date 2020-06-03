@@ -125,21 +125,25 @@ class DigitalAgency extends Component {
                 <div className='section-title text-center service-style--3 mb--30'>
                   <h2 className='title'>Who Am I?</h2>
                   <p>
-                    Hey! I’m Shiv. I’m here to get you from 0 to launch within a
-                    few months, and driving cashflow from day 1. I will give you
-                    the tools you need for success: distill your mission and
+                    Hey! I’m Shiv. If we're working together on an MVP I’m here
+                    to get you from 0 to launch within a short span of months,
+                    and driving cashflow from day 1. If we're working on an
+                    established product, I'll be your ticket closing{' '}
+                    <span style={{ fontWeight: 'bold' }}>machine.</span>
+                    {/* I will give
+                    you the tools you need for success: distill your mission and
                     features, glue your team together, and I will build it for
-                    you. Once.
+                    you. Once. */}
                   </p>
-                  <h2 className='title'>Our Collaboration</h2>
+                  <h2 className='title'>MVP Collaboration</h2>
                   <p>
-                    Your product will be built to last. It will easily scale
-                    upto 100,000+ live users. There will be no unexpected app
-                    crashes or emergency meetings, or embarrassing delayed
-                    launches when you have a huge surge of new users to support.
-                    You get my Business Development experience (I’ve won 2
-                    awards), my Developer experience (Coding, DevOps, QA,
-                    Architecture).
+                    Work with me, and your product will be built to last. It
+                    will easily scale upto 100,000+ live users. There will be no
+                    unexpected app crashes or emergency meetings, or
+                    embarrassing delayed launches when you have a huge surge of
+                    new users to support. You get my Business Development
+                    experience (I’ve won 2 awards), my Developer experience
+                    (Coding, DevOps, QA, Architecture).
                   </p>
                   <h2 className='title'>The Code</h2>
                   <p>
@@ -158,8 +162,7 @@ class DigitalAgency extends Component {
                     that you can test on your user base of 'first adopters'. You
                     need to fail quickly and therefore iterate to success
                     quickly. Your users will tell you what works through their
-                    usage and behaviour: don’t ever directly ask them (they can
-                    rarely tell you directly!)
+                    usage and behaviour.
                   </p>
                   <h2 className='title'>Get In Touch</h2>
                   <p>
@@ -259,102 +262,8 @@ class DigitalAgency extends Component {
         </div>
         {/* End Portfolio Area */}
 
-        {/* Start About Area */}
-        <div className='about-area ptb--120  bg_color--1'>
-          <div className='about-wrapper'>
-            <div className='container'>
-              <div className='row row--35'>
-                <div className='col-lg-5'>
-                  <div className='thumbnail'>
-                    <img
-                      className='w-100'
-                      src='/assets/images/about/about-3.jpg'
-                      alt='About Images'
-                    />
-                  </div>
-                </div>
-                <div className='col-lg-7'>
-                  <div className='about-inner inner'>
-                    <div className='section-title'>
-                      <h2 className='title'>{title}</h2>
-                      <p className='description'>{description}</p>
-                    </div>
-                    <div className='row mt--30'>
-                      <TabOne tabStyle='tab-style--1' />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End About Area */}
-
-        {/* Start Testimonial Area */}
-        <div className='rn-testimonial-area ptb--120 bg_color--5'>
-          <div className='container'>
-            <Testimonial />
-          </div>
-        </div>
-        {/* End Testimonial Area */}
-
-        {/* Start Blog Area */}
-        <div className='rn-blog-area pt--120 pb--80 bg_color--1'>
-          <div className='container'>
-            <div className='row align-items-end'>
-              <div className='col-lg-12'>
-                <div className='section-title text-center service-style--3'>
-                  <h2>Latest News</h2>
-                  <p>
-                    There are many variations of passages of Lorem Ipsum
-                    available, but the majority have suffered alteration.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className='row mt--60'>
-              {PostList.map((value, i) => (
-                <div className='col-lg-4 col-md-6 col-sm-6 col-12' key={i}>
-                  <div className='blog blog-style--1 text-center'>
-                    <div className='thumbnail'>
-                      <a href='/blog-details'>
-                        <img
-                          className='w-100'
-                          src={`/assets/images/blog/blog-${value.images}.jpg`}
-                          alt='Blog Images'
-                        />
-                      </a>
-                    </div>
-                    <div className='content'>
-                      <p className='blogtype'>{value.category}</p>
-                      <h4 className='title'>
-                        <a href='/blog-details'>{value.title}</a>
-                      </h4>
-                      <div className='blog-btn'>
-                        <a className='rn-btn text-white' href='/blog-details'>
-                          Read More
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <div className='row'>
-              <div className='col-lg-12'>
-                <div className='view-more-btn mt--20 text-center'>
-                  <a className='rn-button-style--2 btn-solid' href='/blog'>
-                    <span>View More</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* End Blog Area */}
-
         {/* Start Brand Area */}
-        <div className='rn-brand-area ptb--120 bg_color--5'>
+        {/* <div className='rn-brand-area ptb--120 bg_color--5'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
@@ -373,7 +282,7 @@ class DigitalAgency extends Component {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* End Brand Area */}
 
         {/* Start call To Action  */}
