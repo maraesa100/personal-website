@@ -65,15 +65,18 @@ class About extends Component {
                             Goldsmiths, University of London (2012)
                           </p>
                           <p>
-                            Bid Management: 2013 to 2014 @ Logica/CGI, Adecco
+                            Bid Management: 2012 to 2014 @ Logica/CGI, Adecco
                             and MJ Quinn
                           </p>
                           <p>Director: Retail - 2014 to 2018</p>
                           <p>
-                            Lead Android Full Stack Developer: Upgrade Pack -
+                            Full Stack Developer (Android Lead): Upgrade Pack -
                             2018 to 2020
                           </p>
-                          <p>Full Stack Developer: Growth Method - 2020</p>
+                          <p>
+                            Full Stack Developer (Contract): Growth Method -
+                            2020
+                          </p>
 
                           <h3>Awards</h3>
 
