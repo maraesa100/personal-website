@@ -1,18 +1,15 @@
 import React, { Component, Fragment } from 'react'
-import Slider from 'react-slick'
-import ScrollToTop from 'react-scroll-up'
 import { FiChevronUp } from 'react-icons/fi'
-import { slideSlick } from '../page-demo/script'
-import ServiceList from '../elements/service/ServiceList'
-import Header from '../component/header/Header'
-import FooterTwo from '../component/footer/FooterTwo'
-import Testimonial from '../elements/Testimonial'
-import PortfolioList from '../elements/portfolio/PortfolioList'
-import BlogContent from '../elements/blog/BlogContent'
-import Brand from '../elements/Brand'
-import CallAction from '../elements/callaction/CallAction'
-import TabOne from '../elements/tab/TabOne'
+import ScrollToTop from 'react-scroll-up'
+import Slider from 'react-slick'
 import Helmet from '../component/common/Helmet'
+import FooterTwo from '../component/footer/FooterTwo'
+import Header from '../component/header/Header'
+import BlogContent from '../elements/blog/BlogContent'
+import CallAction from '../elements/callaction/CallAction'
+import PortfolioList from '../elements/portfolio/PortfolioList'
+import ServiceList from '../elements/service/ServiceList'
+import { slideSlick } from '../page-demo/script'
 
 const SlideList = [
   {
@@ -21,45 +18,13 @@ const SlideList = [
     category: '',
     title: 'SIOBHAN MCKENZIE',
     description: `Fuss-free & Fast App Development`,
-    // descriptionSecondary: `MERN || LAMP: React / React Native, Node, Javascript, PHP, Laravel`,
     buttonText: 'Contact Me',
     buttonLink: '/contact'
   }
-  // {
-  //     textPosition: 'text-center',
-  //     bgImage: 'bg_image--23',
-  //     category: '',
-  //     title: 'Development.',
-  //     description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
-  //     buttonText: 'Contact Us',
-  //     buttonLink: '/contact'
-  // },
-  // {
-  //     textPosition: 'text-center',
-  //     bgImage: 'bg_image--22',
-  //     category: '',
-  //     title: 'UX Research.',
-  //     description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
-  //     buttonText: 'Contact Us',
-  //     buttonLink: '/contact'
-  // },
-  // {
-  //     textPosition: 'text-center',
-  //     bgImage: 'bg_image--20',
-  //     category: '',
-  //     title: 'UX Research.',
-  //     description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
-  //     buttonText: 'Contact Us',
-  //     buttonLink: '/contact'
-  // }
 ]
 
 class DigitalAgency extends Component {
   render() {
-    const PostList = BlogContent.slice(0, 3)
-    let title = 'About',
-      description =
-        'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum,'
     return (
       <Fragment>
         <Helmet pageTitle='Siobhan McKenzie' />
@@ -174,50 +139,7 @@ class DigitalAgency extends Component {
                     serve themselves, send me an email! I’d love to work with
                     you.{' '}
                   </p>
-                  <a href='mailto:hi@askshiv.co.uk'>hi@askshiv.co.uk</a>{' '}
-                  {/* <h2 className="title">What I do</h2>
-                                    <p>I'll slot directly into your workflow and cleanly close tickets, build out features and fix and prevent bugs.</p>
-                                    <p>I'll save you time - there's no jargon, no micromanagement required. Clear daily communication and honest upfront time estimates. No need to outline absolutely everything - I make no-brainer assumptions if things are slightly unclear, and will flag these assumptions in my notes. My goal is to saving you time and effort which should be put elsewhere.</p>
-                                    <p>You'll get the benefit of my Technical Architecture, QA (quality) and Testing experience on every job (even if you just hire me to do frontend fixes).</p>
-                                    <p>My business experience means i'll push back on technical strategy if I feel you can get more value for money or efficiency doing things differently. No ego - I can make recommendations, but final choices are always yours.</p>
-                                    <p>Plain english is used whether working with technical or non-technical people.</p>
-                                    <p>I can scale up and down with requirements - I'm open about my available time capacity.</p>
-                                    <br />
-                                    <br />
-                                    <h3>My Technology 'Stack'</h3>
-                                    <h4>Languages: Javascript | PHP</h4>
-                                    <p>I develop native mobile apps and web apps mainly using the following technologies and services.</p> 
-                                    <p>React, React Native, Redux, Node, Laravel, NoSQL, SQL, Firebase, AWS, Heroku.</p> 
-                                    <br />
-                                    <br />
-                                    <h3>My Tooling | Testing</h3>
-                                    <p>TDD: Jest</p>                                    
-                                    <p>BDD: Cucumber</p>                                    
-                                    <p>Continuous Integration: CircleCI</p>                                    
-                                    <p>Google Firebase / Firestore.</p>                                    
-                                    <p>Microservices.</p>    
-                                    <p>Oauth authentication.</p>    
-                                    <br />
-                                    <br />
-                                    <h3>Secure Projects: My Clearance</h3>    
-                                    <p>I hold SC-Clearance: level 2 United Kingdom Security Vetting (one of five levels of national security vetting). Documentation available if required.</p>     
-                                    <br />
-                                    <br />
-                                    <h3>My Fees</h3>
-                                    <p>£65 / hr (no VAT)</p>
-                                    <p>Deposit: 1 week of billed hours. Deducted from your final invoice.</p>
-                                    <p>(If you hire me for 12 hours a week, the deposit is £1,050)</p>
-                                    <br />
-                                    <br />
-                                    <h3>Invoicing terms</h3>
-                                    <p>7 days | Interval: weekly billing for first 3 months</p>
-                                    <br />
-                                    <h3>Bug action SLA</h3>
-                                    <p>I normally fix bugs made by other developers or those that have been newly noticed within 24 hours - 12 hours if they are breaking bugs.</p>
-                                    <br />
-                                    <h3>Workrate Examples</h3> */}
-                  {/* <p>This particular project was a 12/hr a week project. I communicated daily, raising clarification questions, opening new tickets as i discovered pre-existing bugs, and make suggestions such as how to structure the database for maximum efficiency.</p> */}
-                  <br />
+                  <a href='mailto:hi@askshiv.co.uk'>hi@askshiv.co.uk</a> <br />
                 </div>
               </div>
             </div>

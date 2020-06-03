@@ -1,55 +1,11 @@
 import React, { Component } from 'react'
-import PageHelmet from '../component/common/Helmet'
-import Breadcrumb from './common/Breadcrumb'
-import {
-  FiCast,
-  FiLayers,
-  FiUsers,
-  FiMonitor,
-  FiChevronUp
-} from 'react-icons/fi'
+import { FiChevronUp } from 'react-icons/fi'
 import ScrollToTop from 'react-scroll-up'
-import Header from '../component/header/Header'
+import PageHelmet from '../component/common/Helmet'
 import Footer from '../component/footer/Footer'
+import Header from '../component/header/Header'
+import Breadcrumb from './common/Breadcrumb'
 
-const ServiceList = [
-  {
-    icon: <FiCast />,
-    title: 'Business Stratagy',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiLayers />,
-    title: 'Website Development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiUsers />,
-    title: 'Marketing & Reporting',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiMonitor />,
-    title: 'Mobile App Development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiCast />,
-    title: 'Website Development',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  },
-  {
-    icon: <FiMonitor />,
-    title: 'Marketing & Reporting',
-    description:
-      'I throw myself down among the tall grass by the stream as I lie close to the earth.'
-  }
-]
 class Service extends Component {
   render() {
     return (
