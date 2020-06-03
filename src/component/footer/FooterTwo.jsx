@@ -1,11 +1,13 @@
 import React from 'react'
-import { FaLinkedinIn } from 'react-icons/fa'
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 
 const SocialShare = [
   // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
   // {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
   // {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
   // {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+  { Social: <FaGithub />, link: 'https://github.com/maraesa100' },
+
   {
     Social: <FaLinkedinIn />,
     link: 'https://www.linkedin.com/in/siobhanmckenzie/'
