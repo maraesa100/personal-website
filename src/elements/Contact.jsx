@@ -84,8 +84,9 @@ class Contact extends Component {
                   <div className='inner'>
                     <h4 className='title'>Get In Touch</h4>
                     <h5 className='title'>
-                      Please include your mission, your budget, your target
-                      customer profile, and your target launch date
+                      For MVP enquiries please include your mission, your
+                      budget, your target customer profile, and your target
+                      launch date.
                     </h5>
                     {/* <ul>
                                         <li>your mission, your budget, your target customer profile, and your target launch date</li>

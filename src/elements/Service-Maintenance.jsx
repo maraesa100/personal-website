@@ -66,42 +66,59 @@ class Service extends Component {
         {/* End Breadcrump Area */}
 
         {/* Start Service Area */}
-        <div className='service-area ptb--120 bg_color--5'>
+        <div className='service-area ptb--120'>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-12'>
                 <div className='section-title text-center mb--30'>
-                  <h2>MVP Development</h2>
-                  <h3>How can I help you?</h3>
-                  <p>
+                  <h2>Maintenance</h2>
+                  <br />
+                  <h3>
                     We'll be a good match if you're looking for a developer who:
+                  </h3>
+                  <br />
+                  <p>
+                    Can communicate in{' '}
+                    <span style={{ fontWeight: 'bold' }}>plain English</span>{' '}
                   </p>
-                  <ul>
-                    <li>Can communicate in plain English</li>
-                    <li>Requires zero micromanagement or oversight</li>
-                    <li>Closes tickets quickly</li>
-                    <li>
-                      Has experience of working in a startup environment
-                      (Upgrade Pack) as well as giant technology companies (CGI)
-                    </li>
-                    <li>
-                      Can take on DevOps, Technical Architecture and QA
-                      Responsibility
-                    </li>
-                    <li>Delivers on-time, every time</li>
-                    <li>
-                      Can deal with short issue resolution timeframes (12 hours)
-                    </li>
-                    <li>Stays on budget</li>
-                    <li>
-                      Can comply with high level security requirements (UK Based
-                      and holds Security Clearance)
-                    </li>
-                    <li>Can coordinate with Product and Marketing directly</li>
-                    <li>
-                      Can contribute to your business and user capture plan
-                    </li>
-                  </ul>
+                  <p>
+                    Stays <span style={{ fontWeight: 'bold' }}>on budget</span>{' '}
+                  </p>
+                  <p>Requires zero micromanagement or oversight</p>
+                  <p>
+                    Closes tickets{' '}
+                    <span style={{ fontWeight: 'bold' }}>quickly</span>
+                  </p>
+                  <p>
+                    Has <span style={{ fontWeight: 'bold' }}>experience</span>{' '}
+                    of working in a{' '}
+                    <span style={{ fontWeight: 'bold' }}>startup</span>{' '}
+                    environment (Upgrade Pack), as well as for{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      large multinational
+                    </span>{' '}
+                    Technology companies (CGI)
+                  </p>
+                  <p>
+                    Does DevOps, Technical Architecture and QA alongside
+                    Development
+                  </p>
+                  <p>
+                    Delivers <span style={{ fontWeight: 'bold' }}>on time</span>
+                  </p>
+                  <p>
+                    Can comply with{' '}
+                    <span style={{ fontWeight: 'bold' }}>
+                      high level security
+                    </span>{' '}
+                    requirements (UK Based and holds Security Clearance)
+                  </p>
+                  <p>
+                    Conducts work{' '}
+                    <span style={{ fontWeight: 'bold' }}>confidentially</span>
+                  </p>
+                  <p>Can coordinate with Product and Marketing directly</p>
+                  <p>Can contribute to your Business and User Capture plan</p>
                   <br />
                 </div>
               </div>

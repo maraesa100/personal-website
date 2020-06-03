@@ -128,21 +128,22 @@ class DigitalAgency extends Component {
                     Hey! I’m Shiv. If we're working together on an MVP I’m here
                     to get you from 0 to launch within a short span of months,
                     and driving cashflow from day 1. If we're working on an
-                    established product, I'll be your ticket closing machine.
+                    established product, I'll be your ticket closing{' '}
+                    <span style={{ fontWeight: 'bold' }}>machine.</span>
                     {/* I will give
                     you the tools you need for success: distill your mission and
                     features, glue your team together, and I will build it for
                     you. Once. */}
                   </p>
-                  <h2 className='title'>Our Collaboration</h2>
+                  <h2 className='title'>MVP Collaboration</h2>
                   <p>
-                    Your product will be built to last. It will easily scale
-                    upto 100,000+ live users. There will be no unexpected app
-                    crashes or emergency meetings, or embarrassing delayed
-                    launches when you have a huge surge of new users to support.
-                    You get my Business Development experience (I’ve won 2
-                    awards), my Developer experience (Coding, DevOps, QA,
-                    Architecture).
+                    Work with me, and your product will be built to last. It
+                    will easily scale upto 100,000+ live users. There will be no
+                    unexpected app crashes or emergency meetings, or
+                    embarrassing delayed launches when you have a huge surge of
+                    new users to support. You get my Business Development
+                    experience (I’ve won 2 awards), my Developer experience
+                    (Coding, DevOps, QA, Architecture).
                   </p>
                   <h2 className='title'>The Code</h2>
                   <p>
@@ -161,8 +162,7 @@ class DigitalAgency extends Component {
                     that you can test on your user base of 'first adopters'. You
                     need to fail quickly and therefore iterate to success
                     quickly. Your users will tell you what works through their
-                    usage and behaviour: don’t ever directly ask them (they can
-                    rarely tell you directly!)
+                    usage and behaviour.
                   </p>
                   <h2 className='title'>Get In Touch</h2>
                   <p>
