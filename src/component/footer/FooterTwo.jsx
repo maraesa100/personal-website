@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn
-} from 'react-icons/fa'
+import { FaLinkedinIn } from 'react-icons/fa'
 
 const SocialShare = [
   // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
